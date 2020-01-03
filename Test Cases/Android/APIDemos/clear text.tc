@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>clear text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e1ce10b-f832-4e96-bcc2-9178b5874eeb</testCaseGuid>
+   <variable>
+      <defaultValue>'just for testing'</defaultValue>
+      <description></description>
+      <id>63cb7b75-4c1f-4711-a595-e7f4897ff101</id>
+      <masked>false</masked>
+      <name>inputText</name>
+   </variable>
+</TestCaseEntity>

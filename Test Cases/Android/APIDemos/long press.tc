@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>long press</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fc715a3-e120-4c79-b3cb-049edc313c9f</testCaseGuid>
+   <variable>
+      <defaultValue>'just for testing'</defaultValue>
+      <description></description>
+      <id>4bc9342b-dccc-4e06-9512-a3a5adfb76da</id>
+      <masked>false</masked>
+      <name>inputText</name>
+   </variable>
+</TestCaseEntity>

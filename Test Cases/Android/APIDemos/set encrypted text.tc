@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>set encrypted text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80077417-47de-426a-bfae-938861712ce2</testCaseGuid>
+   <variable>
+      <defaultValue>'wcxw+uk/+29z6zI12WBCvHrHW17JlowO'</defaultValue>
+      <description></description>
+      <id>a0c9d0dc-7ce0-4da5-973b-39a593a20188</id>
+      <masked>false</masked>
+      <name>encryptedText</name>
+   </variable>
+   <variable>
+      <defaultValue>'just for testing'</defaultValue>
+      <description></description>
+      <id>913d2e21-ff68-4e49-9372-cd70220eac74</id>
+      <masked>false</masked>
+      <name>inputText</name>
+   </variable>
+</TestCaseEntity>

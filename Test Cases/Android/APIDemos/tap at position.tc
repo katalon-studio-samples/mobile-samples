@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tap at position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbf9be4c-7c26-4c88-8457-e182c9c6d4d7</testCaseGuid>
+   <variable>
+      <defaultValue>'just for testing'</defaultValue>
+      <description></description>
+      <id>6d8c1380-e3c0-46ee-956a-47d565072206</id>
+      <masked>false</masked>
+      <name>inputText</name>
+   </variable>
+</TestCaseEntity>

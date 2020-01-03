@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>RunConfiguration.getProjectDir()</initValue>
+      <name>currentProjDir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Apps/Android/APIDemos.apk'</initValue>
+      <name>apiDemoAppsPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Apps/Android/Foody.apk'</initValue>
+      <name>foodyAppsPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Apps/Android/DragAndDropDemos.apk'</initValue>
+      <name>dragAndDropDemoAppsPath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

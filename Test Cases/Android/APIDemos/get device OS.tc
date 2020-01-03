@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>get device OS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fd225f0-e883-4d70-88dd-747fe0c84778</testCaseGuid>
+   <variable>
+      <defaultValue>'Android'</defaultValue>
+      <description></description>
+      <id>4b9cde55-dd5d-4a3b-b870-0202720b1715</id>
+      <masked>false</masked>
+      <name>deviceOS</name>
+   </variable>
+</TestCaseEntity>

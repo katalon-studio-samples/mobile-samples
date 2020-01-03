@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>get attribuite (element text)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abc46574-4fda-4327-86d5-5f683afcfefd</testCaseGuid>
+   <variable>
+      <defaultValue>'Views'</defaultValue>
+      <description></description>
+      <id>14060ead-7fa7-4a42-acdc-3c5fa6677661</id>
+      <masked>false</masked>
+      <name>elemText</name>
+   </variable>
+</TestCaseEntity>

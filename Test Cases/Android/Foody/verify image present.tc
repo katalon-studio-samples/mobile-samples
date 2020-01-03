@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify image present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06836978-3ebe-437a-aa85-7f9ec53361f3</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/Discovery.png'</defaultValue>
+      <description></description>
+      <id>c5d218fd-0b42-4397-8226-56e6eedaca41</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

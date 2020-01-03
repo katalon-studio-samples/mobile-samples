@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>find image element</name>
+   <tag></tag>
+   <comment>start Foody apps</comment>
+   <testCaseGuid>91d59cdc-7d92-4f13-8c1d-a7a041fbc78f</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/Discovery.png'</defaultValue>
+      <description></description>
+      <id>f09c7050-5025-4bd5-ad71-f53c167b429b</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

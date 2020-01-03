@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tap on image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f550629-978c-43dd-a6bc-e60d129feb3e</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/Delivery.png'</defaultValue>
+      <description></description>
+      <id>83f94395-4e13-4351-92be-e18fe8a0cd6c</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

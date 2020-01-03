@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>get orientation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7d38879-e541-4c4b-8800-6b0610abbfdb</testCaseGuid>
+   <variable>
+      <defaultValue>'portrait'</defaultValue>
+      <description></description>
+      <id>203e488f-f771-49db-8be1-c982513f7819</id>
+      <masked>false</masked>
+      <name>orienPortrait</name>
+   </variable>
+   <variable>
+      <defaultValue>'landscape'</defaultValue>
+      <description></description>
+      <id>8d4a205b-9b11-42ef-9020-470b8ad3f584</id>
+      <masked>false</masked>
+      <name>orienLandscape</name>
+   </variable>
+</TestCaseEntity>
