@@ -30,17 +30,18 @@ class StartApps {
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		String fullPath = testCaseContext.getTestCaseId()
-		if (fullPath.contains('APIDemos')) {
-			'start APIDemos apps'
-			Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.apiDemoAppsPath, true)
-		} else {
-			if (fullPath.contains('DragAndDropDemos')) {
-				'start Drag and Drop demos apps'
+		Number lastSlashIndex = fullPath.lastIndexOf('/')
+		println 'loan test: ' + fullPath.substring(19, lastSlashIndex)
+		switch (fullPath.substring(19, lastSlashIndex)) {
+			case 'APIDemos':
+				Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.apiDemoAppsPath, true)
+				break;
+			case 'DragAndDropDemos':
 				Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.dragAndDropDemoAppsPath, true)
-			} else {
-				'start Foody apps'
+				break;
+			case 'Foody':
 				Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.foodyAppsPath, true)
-			}
+				break;
 		}
 	}
 }
