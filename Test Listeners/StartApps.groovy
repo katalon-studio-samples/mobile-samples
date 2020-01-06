@@ -31,7 +31,7 @@ class StartApps {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		String fullPath = testCaseContext.getTestCaseId()
 		Number lastSlashIndex = fullPath.lastIndexOf('/')
-		println 'loan test: ' + fullPath.substring(19, lastSlashIndex)
+		println 'Apps folder: ' + fullPath.substring(19, lastSlashIndex)
 		switch (fullPath.substring(19, lastSlashIndex)) {
 			case 'APIDemos':
 				Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.apiDemoAppsPath, true)
