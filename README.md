@@ -4,6 +4,6 @@
 	- Saucelabs device: select 'saucelabs' profile and run with Remote option
 	
 2. Run with RE:
-	- Real device: -executionProfile="default" -deviceId="ZX1G22GBJK" -browserType="Android"
+	- Real device: -executionProfile="default" -deviceId="ZX1G22GBJK" -browserType="Android" in which deviceId is changed depending on what device you use
 	- Saucelabs device: -executionProfile="saucelabs" -browserType="Remote"
 
