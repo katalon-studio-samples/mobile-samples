@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.openNotifications()
 
 Mobile.verifyElementNotExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
+
+Mobile.closeNotifications()

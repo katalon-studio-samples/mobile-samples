@@ -20,6 +20,6 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.pressHome()
 
-Mobile.startExistingApplication('com.hmh.api')
+Mobile.startExistingApplication(GlobalVariable.apiDemoAppsId)
 
-Mobile.verifyElementExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)

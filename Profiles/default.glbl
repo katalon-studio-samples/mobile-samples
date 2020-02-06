@@ -16,12 +16,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Apps/Android/Foody.apk'</initValue>
-      <name>foodyAppsPath</name>
+      <initValue>'com.hmh.api'</initValue>
+      <name>apiDemoAppsId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/Apps/Android/DragAndDropDemos.apk'</initValue>
       <name>dragAndDropDemoAppsPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Apps/Android/Foody.apk'</initValue>
+      <name>foodyAppsPath</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

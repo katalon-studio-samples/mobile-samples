@@ -20,11 +20,15 @@ import com.kms.katalon.util.CryptoUtil
 
 //apps is started from TestListner
 
+Mobile.scrollToText('Views')
+
 Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 - Views'), 0)
 
 Mobile.scrollToText('Layouts')
 
 Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 - Lists'), 0)
+
+Mobile.scrollToText('Transcript')
 
 Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 - 12. Transcript'), 0)
 

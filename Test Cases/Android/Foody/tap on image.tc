@@ -3,7 +3,7 @@
    <description></description>
    <name>tap on image</name>
    <tag></tag>
-   <comment></comment>
+   <comment>apps is started from TestListner</comment>
    <testCaseGuid>9f550629-978c-43dd-a6bc-e60d129feb3e</testCaseGuid>
    <variable>
       <defaultValue>'/Screenshots/Photo For Keyword Testing/Delivery.png'</defaultValue>

@@ -6,28 +6,28 @@
    <comment></comment>
    <testCaseGuid>f7265f83-ebc1-48c1-8ac7-a64336c76da1</testCaseGuid>
    <variable>
-      <defaultValue>1000</defaultValue>
+      <defaultValue>400</defaultValue>
       <description></description>
       <id>bfc91c2a-c30d-4aea-bbcd-b976592cf075</id>
       <masked>false</masked>
       <name>x1</name>
    </variable>
    <variable>
-      <defaultValue>2000</defaultValue>
+      <defaultValue>700</defaultValue>
       <description></description>
       <id>7df5e170-57dc-42b7-8d66-91721544c25e</id>
       <masked>false</masked>
       <name>y1</name>
    </variable>
    <variable>
-      <defaultValue>500</defaultValue>
+      <defaultValue>200</defaultValue>
       <description></description>
       <id>7f63424a-66e8-41ba-855d-86b2a553b54f</id>
       <masked>false</masked>
       <name>x2</name>
    </variable>
    <variable>
-      <defaultValue>1000</defaultValue>
+      <defaultValue>400</defaultValue>
       <description></description>
       <id>5fe4fd40-e600-40b5-b0b8-7e8bf9692fd3</id>
       <masked>false</masked>

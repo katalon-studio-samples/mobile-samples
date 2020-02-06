@@ -21,4 +21,4 @@ import internal.GlobalVariable as GlobalVariable
 
 Number elemHeight = Mobile.getElementHeight(findTestObject('Object Repository/Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
 
-Mobile.verifyGreaterThan(elemHeight, 100)
+Mobile.verifyGreaterThan(elemHeight, 50)

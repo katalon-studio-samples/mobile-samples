@@ -20,4 +20,4 @@ import internal.GlobalVariable as GlobalVariable
 
 Number elemWidth = Mobile.getElementWidth(findTestObject('Object Repository/Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
 
-Mobile.verifyGreaterThan(elemWidth, 1000)
+Mobile.verifyGreaterThan(elemWidth, 100)

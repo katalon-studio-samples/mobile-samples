@@ -14,9 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import static org.assertj.core.api.Assertions.*
 
 
 //apps is started from TestListner
+
+Mobile.scrollToText('Views')
 
 Mobile.tap(findTestObject('Android/Seek Bar/android.widget.TextView0 - Views'), 0)
 
@@ -24,7 +27,8 @@ Mobile.scrollToText('Seek Bar')
 
 Mobile.tap(findTestObject('Android/Seek Bar/android.widget.TextView0 - Seek Bar'), 0)
 
-Mobile.setSliderValue(findTestObject('Android/Seek Bar/android.widget.SeekBar0'), value, 0)
+Mobile.setSliderValue(findTestObject('Android/Seek Bar/android.widget.SeekBar0'), value, 3)
 
 Mobile.verifyElementAttributeValue(findTestObject('Android/Seek Bar/android.widget.TextView0'), 'text', value + ' from touch=true', 0)
+
 

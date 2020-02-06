@@ -20,10 +20,10 @@ import internal.GlobalVariable as GlobalVariable
 
 Number deviceHeight = Mobile.getDeviceHeight()
 
-Mobile.verifyGreaterThan(deviceHeight, 2000)
+Mobile.verifyGreaterThan(deviceHeight, 100)
 
 Number deviceWidth = Mobile.getDeviceWidth()
 
-Mobile.verifyGreaterThan(deviceWidth, 1000)
+Mobile.verifyGreaterThan(deviceWidth, 50)
 
 

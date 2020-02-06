@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>saucelabs</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Android'</initValue>
+      <name>platformName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8.1.0'</initValue>
+      <name>platformVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Alcatel 1x'</initValue>
+      <name>deviceName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app.testobject.com/api/rest/users/katalon-service/projects/api-demos/apps/1/file'</initValue>
+      <name>apiDemoAppsId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3A728618424743AD929B43CC6F1954A5'</initValue>
+      <name>apiDemoApps_api_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app.testobject.com/api/rest/users/katalon-service/projects/drag-sort-demos/apps/1/file'</initValue>
+      <name>dragSortDemoAppsId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2F8917C6CDD345328615A7A61AC5400A'</initValue>
+      <name>dragSortApps_api_key</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

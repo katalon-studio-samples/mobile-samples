@@ -18,9 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 
 //apps is started from TestListner
 
+Mobile.scrollToText('Views')
+
 Mobile.tap(findTestObject('Android/Hide Keyboard/android.widget.TextView0 - Views'), 0)
 
-Mobile.scrollToText('Search View')
+Mobile.scrollToText('Search')
 
 Mobile.tap(findTestObject('Android/Hide Keyboard/android.widget.TextView0 - Search View'), 0)
 
@@ -28,6 +30,6 @@ Mobile.tap(findTestObject('Android/Hide Keyboard/android.widget.TextView0 - Filt
 
 Mobile.hideKeyboard()
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/Hide Keyboard/android.widget.TextView0 - Aisy Cendre'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Hide Keyboard/android.widget.TextView0 - Afuegal Pitu'), 0)
 
 

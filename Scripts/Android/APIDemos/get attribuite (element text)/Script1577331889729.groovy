@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 
 //apps is started from TestListner
 
+Mobile.scrollToText('Views')
+
 String elemText = Mobile.getAttribute(findTestObject('Android/Get Attributes/android.widget.TextView0 - Views'), 'text', 0)
 
 Mobile.verifyEqual(elemText, elemText)
