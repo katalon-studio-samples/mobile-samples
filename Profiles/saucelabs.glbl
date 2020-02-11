@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3A728618424743AD929B43CC6F1954A5'</initValue>
+      <initValue>''</initValue>
       <name>apiDemoApps_api_key</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2F8917C6CDD345328615A7A61AC5400A'</initValue>
+      <initValue>''</initValue>
       <name>dragSortApps_api_key</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

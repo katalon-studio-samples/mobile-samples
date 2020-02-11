@@ -20,6 +20,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.pressHome()
 
-Mobile.startExistingApplication(GlobalVariable.apiDemoAppsId)
+if (GlobalVariable.deviceName == null) {
+	//run for real device only 
 
-Mobile.verifyElementExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
+	Mobile.startExistingApplication(GlobalVariable.apiDemoAppsId) 
+
+	Mobile.verifyElementExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
+
+}

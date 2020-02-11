@@ -16,12 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 
-
 //apps is started from TestListner
 
 String os = Mobile.getDeviceOS()
 
-Mobile.verifyMatch(os, deviceOS, false)
+if (GlobalVariable.deviceName) deviceOS = null //remote mode cannot return device OS
+
+Mobile.verifyEqual(os, deviceOS)
 
 
 
