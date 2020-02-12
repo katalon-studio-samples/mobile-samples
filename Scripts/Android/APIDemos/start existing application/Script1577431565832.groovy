@@ -26,5 +26,8 @@ if (GlobalVariable.deviceName == null) {
 	Mobile.startExistingApplication(GlobalVariable.apiDemoAppsId) 
 
 	Mobile.verifyElementExist(findTestObject('Android/Tap an element/android.widget.TextView0 - Accessibility'), 0)
-
+	
+	Mobile.closeApplication()
+	
+	Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.apiDemoAppsPath, true)
 }

@@ -23,6 +23,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>39e25260-62e4-419c-bd53-9d542557f076</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/APIDemos/start existing application</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ac8c9b29-29ec-4318-9160-66139dbfd5d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -153,12 +159,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/press Home</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0c124392-af76-4e89-bdb8-4dfe7309ad09</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/APIDemos/start existing application</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf49c35c-27b6-468d-bd10-c52c7bd5c8dd</guid>
