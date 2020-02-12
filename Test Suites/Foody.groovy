@@ -24,6 +24,17 @@ import com.kms.katalon.core.annotation.SetupTestCase
 import com.kms.katalon.core.annotation.TearDown
 import com.kms.katalon.core.annotation.TearDownTestCase
 
+import com.kms.katalon.core.configuration.RunConfiguration
+import org.openqa.selenium.remote.DesiredCapabilities
+import com.kms.katalon.core.appium.driver.AppiumDriverManager
+import com.kms.katalon.core.mobile.driver.MobileDriverType
+
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+
 /**
  * Some methods below are samples for using SetUp/TearDown in a test suite.
  */
@@ -31,33 +42,41 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = false) 
 def setUp() {
-	// Put your code here.
+	if (GlobalVariable.deviceName == null) {
+		'start application in real device'
+		Mobile.startApplication(GlobalVariable.currentProjDir + GlobalVariable.foodyAppsPath, true)
+	}
 }
 
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false) 
 def tearDown() {
-	// Put your code here.
+	if (GlobalVariable.deviceName == null) {
+		Mobile.closeApplication()
+	}
 }
 
 /**
  * Run before each test case starts.
  */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = true) 
 def setupTestCase() {
-	// Put your code here.
 }
+
 
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = false) 
 def tearDownTestCase() {
-	// Put your code here.
+	if (GlobalVariable.deviceName == null) {
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		driver.resetApp()
+	}	
 }
 
 /**

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Foody</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>82830578-c1a3-41c8-a104-5c8717119e6e</testSuiteGuid>
+   <testCaseLink>
+      <guid>8ecc8559-b2f1-4567-aa66-49b7d0c43e36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Foody/tap on image</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83f94395-4e13-4351-92be-e18fe8a0cd6c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c6d6174-c1c9-4337-8b6b-096992bcfc5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Foody/verify image present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5d218fd-0b42-4397-8226-56e6eedaca41</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ded432d-ff2f-4689-a52a-9bce3125184d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Foody/find image element</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f09c7050-5025-4bd5-ad71-f53c167b429b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

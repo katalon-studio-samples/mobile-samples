@@ -22,13 +22,28 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class CloseApps {
+class SkipFoodyTestCaseOnSaucelabDevice {
+	String testSuiteName = ''
+	
 	/**
-	 * Executes after every test case ends.
+	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		Mobile.closeApplication()
+	@BeforeTestCase
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		if (testSuiteName.contains('Foody') && GlobalVariable.deviceName) {
+			println 'loan tesstttttttttttttttttt'
+			testCaseContext.skipThisTestCase()
+		}
 	}
+	
+	/**
+	 * Executes before every test suite starts.
+	 * @param testSuiteContext: related information of the executed test suite.
+	 */
+	@BeforeTestSuite
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		testSuiteName = testSuiteContext.getTestSuiteId()
+	}
+	
 }

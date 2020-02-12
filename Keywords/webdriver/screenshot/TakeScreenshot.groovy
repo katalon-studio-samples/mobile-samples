@@ -14,7 +14,7 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import katalon.common.BaseKeyword
 
 public class TakeScreenshot extends BaseKeyword{
-	
+
 	/**
 	 * Verify two images are matched or not
 	 * @param expectedImgPath the location of expected image

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Regression</name>
+   <name>APIDemos</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,9 +9,9 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>89c5eb4a-7625-4011-8597-4ff4675ace55</testSuiteGuid>
+   <testSuiteGuid>7849b11b-c25e-4530-99ca-1bf3ffda3e55</testSuiteGuid>
    <testCaseLink>
-      <guid>81bfb1cf-bcfc-4248-b35c-76eb718e4385</guid>
+      <guid>3b8079ac-2e34-43ca-8d4b-281ab3572988</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/tap at position</testCaseId>
@@ -23,7 +23,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>55a6f63f-142c-491e-aa97-ac438efc6013</guid>
+      <guid>ac8c9b29-29ec-4318-9160-66139dbfd5d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/set encrypted text</testCaseId>
@@ -41,7 +41,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e11c346-136d-4367-a7e6-0cef14c66b79</guid>
+      <guid>f5f2a749-4779-4d23-8b42-6dbc2105a758</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get device OS</testCaseId>
@@ -53,19 +53,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8e8e3cc5-d743-4398-bf8d-3c086b958e71</guid>
+      <guid>f5c5a526-b6f1-4a3c-a210-d20e31fcdfcb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/hide keyboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a7c733a-e5d8-4368-b5c9-dea7e8e5ff61</guid>
+      <guid>d2fac06e-d503-4c6b-afb3-298bd999d879</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/take screenshot</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2b6ac3d2-c1ee-49db-9b2d-3249e297c649</guid>
+      <guid>90c4dcc0-fa1c-4cd5-9469-8065843e2f64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/long press</testCaseId>
@@ -77,73 +77,49 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>833b1c12-9d74-4856-84e4-1caa0d6c7feb</guid>
+      <guid>645d7330-c2dd-465e-a18f-8fe37547d90b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/check a checkbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1081da7-25c9-4f06-8a91-6cb1c92a51ae</guid>
+      <guid>55f309ce-c44f-4a8a-9e88-39cfcccb5eab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/close notification</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e83036a-ef20-4f69-ad63-665e5064530d</guid>
+      <guid>7bde2691-1d82-4b05-bc1c-754cb4c5c2db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/tap and hold</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7d32265-2a9e-4bb0-beda-a22c079739dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Foody/tap on image</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>83f94395-4e13-4351-92be-e18fe8a0cd6c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eabfb323-59d9-4de7-88a3-3a7e9a7e9f46</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Foody/verify image present</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c5d218fd-0b42-4397-8226-56e6eedaca41</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>458d168c-8049-425e-9ac5-2ca16b1ab484</guid>
+      <guid>c33e28a0-3afe-45a9-9f26-c457a4960c21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get element left position</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>42804d3c-a42b-4803-a3ea-844153f173cb</guid>
+      <guid>b8f42b47-6cd9-453a-9d59-85fc2d9c3cfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/switch to portrait</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b69d1f02-cd0f-49a3-b241-f741108b94a8</guid>
+      <guid>217a164a-bc46-4ad3-b26a-ee61f2fa69f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/uncheck a checkbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e169d068-1b28-4aa3-867b-89c4967a9fc6</guid>
+      <guid>f0ab72ea-0597-4185-b880-7269ea08732e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/tap an element</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>908052f8-be15-4dbf-a6a4-304da68f6763</guid>
+      <guid>7727c4a6-b6fc-4aef-be27-0f667c5306c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/swipe</testCaseId>
@@ -173,55 +149,55 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2b71933b-58ca-4e94-9fef-cb8879b6e33a</guid>
+      <guid>10bd1c03-f225-4ca2-9c79-4699c72aa8db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/press Home</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>008360a2-2178-4059-86f9-78439ead99bb</guid>
+      <guid>0c124392-af76-4e89-bdb8-4dfe7309ad09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/start existing application</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff20c951-ff67-4924-9e3e-0729bc29bd2f</guid>
+      <guid>cf49c35c-27b6-468d-bd10-c52c7bd5c8dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/switch to lanscape</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ecc72cd-6f4a-45e5-b65d-7f26db83d04c</guid>
+      <guid>de055caf-09c4-4d4f-bc6a-2c40109dd267</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get device height and width</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c60b63bb-4920-4bd2-8ddc-40c5b38d16aa</guid>
+      <guid>7798d454-a401-4964-9594-6cd960bdfe6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/double tap an element</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1aa36055-f66f-4fa7-8e13-7b8dca46ce02</guid>
+      <guid>31182f4c-201b-4d47-9cc6-8d7b65cb6ad8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/scroll to text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6656b75-6df4-400b-9154-0f7e28af6e2e</guid>
+      <guid>533022e8-7db6-4ba0-a9b7-4a2c710b9031</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get element height</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ea9a9a0-a108-4a2a-89b2-c71b0781bc74</guid>
+      <guid>0cdd2e83-e7ea-4487-9538-a72ae1938ff0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get element top position</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7f3b989-f121-4f22-97f1-1a1a99d1bb3d</guid>
+      <guid>eb40c652-89af-4a03-90b7-ae4196d1beb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/set slider value</testCaseId>
@@ -233,7 +209,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6d8d699-698c-4d97-944a-1722e2cd5c37</guid>
+      <guid>e3c1cafe-1fba-4abd-aa92-db85b90e7ef9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get orientation</testCaseId>
@@ -251,13 +227,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff96a94b-f971-42ce-9db5-f6cb10cbcebf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/DragAndDropDemos/drag and drop</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>79c7e671-cc0d-461c-8ebb-9f938befa078</guid>
+      <guid>20251dcb-de78-43c0-965f-340b3707053d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/clear text</testCaseId>
@@ -269,19 +239,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>28294fc5-7c80-456e-a9e5-23c384f51352</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Foody/find image element</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f09c7050-5025-4bd5-ad71-f53c167b429b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>102d496d-9b70-4105-9c17-c03a39659641</guid>
+      <guid>601482e5-fc15-4082-98fb-0e4fb6684741</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/send keys</testCaseId>
@@ -293,19 +251,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4693e95f-7525-426b-b8d9-e815cc91c260</guid>
+      <guid>af50e586-bdaf-47fb-9763-cb481132dd87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/open notification</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>830efeec-2bbe-4ef3-96e0-1be1616f9928</guid>
+      <guid>4609a183-8e3b-416b-b2f6-91a7d7d7035c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/press Back</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1fb42bcf-b1a9-4baa-802a-5420a5f871fd</guid>
+      <guid>eb8397ea-4c90-4336-a594-46c34b68dbf1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get attribuite (element text)</testCaseId>
@@ -317,13 +275,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5a2a7e0-fa74-4d57-8543-e706ac7cbe30</guid>
+      <guid>297374de-9176-486d-850d-1101ef446d67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/get element width</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>483bf49c-63f6-492b-960a-a5be48f62bae</guid>
+      <guid>b8f1f353-69b6-44c4-a7e5-8af3e7093f5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/APIDemos/set text and get text</testCaseId>

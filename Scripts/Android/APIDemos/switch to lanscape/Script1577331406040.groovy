@@ -20,3 +20,5 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.switchToLandscape()
 
 Mobile.verifyIsLandscape(FailureHandling.STOP_ON_FAILURE)
+
+Mobile.switchToPortrait()

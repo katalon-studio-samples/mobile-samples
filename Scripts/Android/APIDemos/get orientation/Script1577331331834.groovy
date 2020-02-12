@@ -19,12 +19,14 @@ import internal.GlobalVariable as GlobalVariable
 
 //apps is started from TestListner
 
-String orientation = Mobile.getCurrentOrientation()
-
-Mobile.verifyMatch(orientation, orienPortrait, false)
-
 Mobile.switchToLandscape()
 
 orientation = Mobile.getCurrentOrientation()
 
 Mobile.verifyMatch(orientation, orienLandscape, false)
+
+Mobile.switchToPortrait()
+
+String orientation = Mobile.getCurrentOrientation()
+
+Mobile.verifyMatch(orientation, orienPortrait, false)
