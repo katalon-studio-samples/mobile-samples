@@ -24,7 +24,7 @@ Mobile.scrollToText('Views')
 
 Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 - Views'), 0)
 
-Mobile.scrollToText('Layouts')
+Mobile.scrollToText('Number Picker')
 
 Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 - Lists'), 0)
 
@@ -34,9 +34,9 @@ Mobile.tap(findTestObject('Android/Set Encrypted Text/android.widget.TextView0 -
 
 def encryptedText = CryptoUtil.encode(CryptoUtil.getDefault(inputText))
 
-Mobile.setEncryptedText(findTestObject('Android/Set Encrypted Text/android.widget.EditText0'), encryptedText, 0)
+Mobile.setEncryptedText(findTestObject('Android/Set Encrypted Text/android.widget.EditText'), encryptedText, 0)
 
-String textGot = Mobile.getText(findTestObject('Android/Set Encrypted Text/android.widget.EditText0'), 0)
+String textGot = Mobile.getText(findTestObject('Android/Set Encrypted Text/android.widget.EditText'), 0)
 
 Mobile.verifyMatch(textGot, inputText, false)
 
