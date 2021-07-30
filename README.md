@@ -16,6 +16,7 @@
 	- Saucelabs device: -testSuiteCollectionPath="Test Suites/Regression - Saucelabs device" -g_apiDemoApps_api_key=<> -g_dragSortApps_api_key=<>
 	
 Note: - Value of apiDemoApps_api_key and dragSortApps_api_key can be retrieved at https://katalon.atlassian.net/wiki/spaces/TEAM/pages/116555811/Tokens+to+run+mobile+sample+script+with+saucelabs+device
+      
       - To run Test Suite "Foody": Make sure your machine has installed "cMake" due to it has Image-based Testing (FYI: https://docs.katalon.com/katalon-studio/docs/mobile-image-based-testing.html#set-up)
 
 ## Companion products
