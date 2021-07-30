@@ -19,6 +19,9 @@ import static org.assertj.core.api.Assertions.*
 
 'Foody apps is started from TestListener'
 
+'dismiss location notice'
+Mobile.tap(findTestObject('Object Repository/Android/Tap On Image/android.widget.TextView - No'), 50, FailureHandling.OPTIONAL)
+
 'dismiss What"s New pop up'
 TestObject btnWhatNewclose = findTestObject('Android/Tap On Image/android.widget.TextView0 - Foody Whats New pop up - Close')
 Mobile.tap(btnWhatNewclose, 60, FailureHandling.OPTIONAL)

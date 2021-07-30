@@ -22,7 +22,7 @@ Mobile.tap(findTestObject('Android/Set Text/android.widget.TextView0 - Content')
 
 Mobile.tap(findTestObject('Android/Set Text/android.widget.TextView0 - Clipboard'), 0)
 
-Mobile.tap(findTestObject('Android/Set Text/android.widget.TextView0 - Data Types'), 0)
+Mobile.tap(findTestObject('Android/Set Text/android.widget.TextView - Data Types'), 0)
 
 Mobile.setText(findTestObject('Android/Set Text/android.widget.EditText0'), inputText, 0)
 

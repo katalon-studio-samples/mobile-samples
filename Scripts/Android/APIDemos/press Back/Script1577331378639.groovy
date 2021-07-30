@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 
 //apps is started from TestListner
 
+Mobile.scrollToText('Text')
+
 Mobile.tap(findTestObject('Android/Press Back or Home/android.widget.TextView0 - Text'), 0)
 
 Mobile.pressBack()
