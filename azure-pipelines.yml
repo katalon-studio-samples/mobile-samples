@@ -1,0 +1,62 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+
+name: KS Regression Automation
+
+## this configuration is ignored since the pipeline is already connected to github
+## and there is already a step checkout to clone script from github under 'steps'
+# resources: 
+#   repositories:
+#   - repository: TESTNGKeywordsTest
+#     type: github
+#     ref: refs/heads/master
+#     name: katalon-studio-samples/web-samples
+#     endpoint: github.com_kms-loantran
+
+trigger:
+  - master
+
+pool:
+  vmImage: macOS-latest
+
+stages:
+- stage: Test
+  displayName: Run Automation script
+  jobs:
+  - job: TestOnMac
+    displayName: Run automation script on Mac
+    continueOnError: true
+    variables:  # job-level
+      VERSION: '8.1.0'
+      AUTO_UPDATE_WEBDRIVERS: true
+      WORK_DIR: $(Build.Repository.LocalPath)
+      TMP_DIR: $(Build.ArtifactStagingDirectory)
+    steps:
+    - checkout: self
+      clean: true
+      fetchDepth: 1
+    - bash: |
+        set -ex
+        curl "https://download.katalon.com/${VERSION}/Katalon_Studio_Engine_MacOS-${VERSION}.tar.gz" -o katalon_runtime_engine.tar.gz
+      displayName: download KRE package
+    - bash: |
+        set -ex
+        tar -xvf katalon_runtime_engine.tar.gz
+      displayName: unzip KRE package
+    - script: |
+        set -ex
+        kataloncPath="$(pwd)/Katalon_Studio_Engine_MacOS-${VERSION}/Katalon Studio Engine.app/Contents/MacOS/katalonc"
+        projectPath="${WORK_DIR}/katalon-studio-mobile-keywords-test-script.prj"
+        testSuite="${WORK_DIR}/Test Suites"
+        ls -al
+        echo $projectPath
+        echo $katalonc
+        echo $testSuite
+        ls -al "$(pwd)/katalon-studio-mobile-keywords-test-script.prj"
+        cd '/Users/runner/work/1/s/Test Suites'
+        ls -al
+        "$kataloncPath" -apiKey="1fa1ef2c-2b34-49df-9991-509c76c62cc0" -projectPath="$projectPath" -testSuiteCollectionPath="Test Suites/Mobile Android Keywords - Saucelabs device" -g_apiDemoApps_api_key="3A728618424743AD929B43CC6F1954A5" -g_dragSortApps_api_key="2F8917C6CDD345328615A7A61AC5400A" --config -webui.autoUpdateDrivers=${AUTO_UPDATE_WEBDRIVERS}
+      displayName: Run Mobile Android Keywords Test
